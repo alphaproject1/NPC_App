@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex pt-0 justify-between items-center navbar">
-      <img src={NPH} alt="logo" className="w-[284px] h-[32px]" />
+      <img src={NPH} alt="logo" className="w-[266px] h-[55px]" />
       <ul className="list-none sm:flex hidden justify-end items-center flex-1" >
       {navLinks.map((nav, index) => (
           <li
